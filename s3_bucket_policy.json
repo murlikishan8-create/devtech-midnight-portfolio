@@ -9,7 +9,7 @@
                 "s3:GetObject"
             ],
             "Resource": [
-                "arn:aws:s3:::devtech-midnight-portfolio/*"
+                "arn:aws:s3:::the-dmk-bucket/*"
             ]
         }
     ]
