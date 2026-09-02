@@ -48,11 +48,11 @@ jobs:
 
 ## Key Features
 
-✅ Fully automated deployment  
-✅ Infrastructure as Code (YAML)  
-✅ Secure credentials (GitHub Secrets)  
-✅ Zero downtime updates  
-✅ Cost-effective hosting  
+ Fully automated deployment  
+ Infrastructure as Code (YAML)  
+ Secure credentials (GitHub Secrets)  
+ Zero downtime updates  
+ Cost-effective hosting  
 
 ## Troubleshooting
 
