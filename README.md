@@ -1,10 +1,24 @@
-# DevTech Midnight Portfolio 
+## AWS S3 Portfolio CI/CD Pipeline
+
+## 📐 Architecture Overview
+
+```mermaid
+graph LR
+    A[Developer Push] -->|git push origin main| B[GitHub Repository]
+    B -->|Trigger Workflow| C[GitHub Actions Runner]
+    C -->|Authenticate via IAM| D[AWS S3 Bucket]
+    D -->|Host Static Website| E[End User / Web Browser]
+```
 
 A portfolio website with **automated CI/CD deployment** using GitHub Actions and AWS S3.
 
 ## What It Does
 
 Every time I push code to GitHub → GitHub Actions automatically deploys it to AWS S3 → Site updates instantly. No manual deployment needed.
+
+## Why This Project?
+
+Manual uploads to AWS S3 are slow and prone to human error. I built this project to automate deployments using GitHub Actions—ensuring every commit to `main` instantly updates the live site with zero manual effort.
 
 ## Tech Stack
 
